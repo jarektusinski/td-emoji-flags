@@ -1,579 +1,575 @@
-import type { CountryName } from 'td-countries-names';
+export const AFGHANISTAN_FLAG_EMOJI = '🇦🇫';
+export const ALAND_ISLANDS_FLAG_EMOJI = '🇦🇽';
+export const ALBANIA_FLAG_EMOJI = '🇦🇱';
+export const ALGERIA_FLAG_EMOJI = '🇩🇿';
+export const AMERICAN_SAMOA_FLAG_EMOJI = '🇦🇸';
+export const ANDORRA_FLAG_EMOJI = '🇦🇩';
+export const ANGOLA_FLAG_EMOJI = '🇦🇴';
+export const ANGUILLA_FLAG_EMOJI = '🇦🇮';
+export const ANTARCTICA_FLAG_EMOJI = '🇦🇶';
+export const ANTIGUA_AND_BARBUDA_FLAG_EMOJI = '🇦🇬';
+export const ARGENTINA_FLAG_EMOJI = '🇦🇷';
+export const ARMENIA_FLAG_EMOJI = '🇦🇲';
+export const ARUBA_FLAG_EMOJI = '🇦🇼';
+export const ASCENSION_ISLAND_FLAG_EMOJI = '🇦🇨';
+export const AUSTRALIA_FLAG_EMOJI = '🇦🇺';
+export const AUSTRIA_FLAG_EMOJI = '🇦🇹';
+export const AZERBAIJAN_FLAG_EMOJI = '🇦🇿';
+export const BAHAMAS_FLAG_EMOJI = '🇧🇸';
+export const BAHRAIN_FLAG_EMOJI = '🇧🇭';
+export const BANGLADESH_FLAG_EMOJI = '🇧🇩';
+export const BARBADOS_FLAG_EMOJI = '🇧🇧';
+export const BELARUS_FLAG_EMOJI = '🇧🇾';
+export const BELGIUM_FLAG_EMOJI = '🇧🇪';
+export const BELIZE_FLAG_EMOJI = '🇧🇿';
+export const BENIN_FLAG_EMOJI = '🇧🇯';
+export const BERMUDA_FLAG_EMOJI = '🇧🇲';
+export const BHUTAN_FLAG_EMOJI = '🇧🇹';
+export const BOLIVIA_FLAG_EMOJI = '🇧🇴';
+export const BONAIRE_FLAG_EMOJI = '🇧🇶';
+export const BOSNIA_AND_HERZEGOVINA_FLAG_EMOJI = '🇧🇦';
+export const BOTSWANA_FLAG_EMOJI = '🇧🇼';
+export const BOUVET_ISLAND_FLAG_EMOJI = '🇧🇻';
+export const BRAZIL_FLAG_EMOJI = '🇧🇷';
+export const BRITISH_INDIAN_OCEAN_TERRITORY_FLAG_EMOJI = '🇮🇴';
+export const BRITISH_VIRGIN_ISLANDS_FLAG_EMOJI = '🇻🇬';
+export const BRUNEI_FLAG_EMOJI = '🇧🇳';
+export const BULGARIA_FLAG_EMOJI = '🇧🇬';
+export const BURKINA_FASO_FLAG_EMOJI = '🇧🇫';
+export const BURUNDI_FLAG_EMOJI = '🇧🇮';
+export const CAMBODIA_FLAG_EMOJI = '🇰🇭';
+export const CAMEROON_FLAG_EMOJI = '🇨🇲';
+export const CANADA_FLAG_EMOJI = '🇨🇦';
+export const CANARY_ISLANDS_FLAG_EMOJI = '🇮🇨';
+export const CAPE_VERDE_FLAG_EMOJI = '🇨🇻';
+export const CARIBBEAN_NETHERLANDS_FLAG_EMOJI = '🇧🇶';
+export const CAYMAN_ISLANDS_FLAG_EMOJI = '🇰🇾';
+export const CENTRAL_AFRICAN_REPUBLIC_FLAG_EMOJI = '🇨🇫';
+export const CEUTA_AND_MELILLA_FLAG_EMOJI = '🇪🇦';
+export const CHAD_FLAG_EMOJI = '🇹🇩';
+export const CHILE_FLAG_EMOJI = '🇨🇱';
+export const CHINA_FLAG_EMOJI = '🇨🇳';
+export const CHRISTMAS_ISLAND_FLAG_EMOJI = '🇨🇽';
+export const CLIPPERTON_ISLAND_FLAG_EMOJI = '🇨🇵';
+export const COCOS_KEELING_ISLANDS_FLAG_EMOJI = '🇨🇨';
+export const COLOMBIA_FLAG_EMOJI = '🇨🇴';
+export const COMOROS_FLAG_EMOJI = '🇰🇲';
+export const CONGO_BRAZZAVILLE_FLAG_EMOJI = '🇨🇬';
+export const CONGO_KINSHASA_FLAG_EMOJI = '🇨🇩';
+export const COOK_ISLANDS_FLAG_EMOJI = '🇨🇰';
+export const COSTA_RICA_FLAG_EMOJI = '🇨🇷';
+export const CROATIA_FLAG_EMOJI = '🇭🇷';
+export const CUBA_FLAG_EMOJI = '🇨🇺';
+export const CURACAO_FLAG_EMOJI = '🇨🇼';
+export const CYPRUS_FLAG_EMOJI = '🇨🇾';
+export const CZECHIA_FLAG_EMOJI = '🇨🇿';
+export const DENMARK_FLAG_EMOJI = '🇩🇰';
+export const DIEGO_GARCIA_FLAG_EMOJI = '🇩🇬';
+export const DJIBOUTI_FLAG_EMOJI = '🇩🇯';
+export const DOMINICA_FLAG_EMOJI = '🇩🇲';
+export const DOMINICAN_REPUBLIC_FLAG_EMOJI = '🇩🇴';
+export const ECUADOR_FLAG_EMOJI = '🇪🇨';
+export const EGYPT_FLAG_EMOJI = '🇪🇬';
+export const EL_SALVADOR_FLAG_EMOJI = '🇸🇻';
+export const ENGLAND_FLAG_EMOJI = '🏴󠁧󠁢󠁥󠁮󠁧󠁿';
+export const EQUATORIAL_GUINEA_FLAG_EMOJI = '🇬🇶';
+export const ERITREA_FLAG_EMOJI = '🇪🇷';
+export const ESTONIA_FLAG_EMOJI = '🇪🇪';
+export const ESWATINI_FLAG_EMOJI = '🇸🇿';
+export const ETHIOPIA_FLAG_EMOJI = '🇪🇹';
+export const FALKLAND_ISLANDS_FLAG_EMOJI = '🇫🇰';
+export const FAROE_ISLANDS_FLAG_EMOJI = '🇫🇴';
+export const FIJI_FLAG_EMOJI = '🇫🇯';
+export const FINLAND_FLAG_EMOJI = '🇫🇮';
+export const FRANCE_FLAG_EMOJI = '🇫🇷';
+export const FRENCH_GUIANA_FLAG_EMOJI = '🇬🇫';
+export const FRENCH_POLYNESIA_FLAG_EMOJI = '🇵🇫';
+export const FRENCH_SOUTHERN_TERRITORIES_FLAG_EMOJI = '🇹🇫';
+export const GABON_FLAG_EMOJI = '🇬🇦';
+export const GAMBIA_FLAG_EMOJI = '🇬🇲';
+export const GEORGIA_FLAG_EMOJI = '🇬🇪';
+export const GERMANY_FLAG_EMOJI = '🇩🇪';
+export const GHANA_FLAG_EMOJI = '🇬🇭';
+export const GIBRALTAR_FLAG_EMOJI = '🇬🇮';
+export const GREECE_FLAG_EMOJI = '🇬🇷';
+export const GREENLAND_FLAG_EMOJI = '🇬🇱';
+export const GRENADA_FLAG_EMOJI = '🇬🇩';
+export const GUADELOUPE_FLAG_EMOJI = '🇬🇵';
+export const GUAM_FLAG_EMOJI = '🇬🇺';
+export const GUATEMALA_FLAG_EMOJI = '🇬🇹';
+export const GUERNSEY_FLAG_EMOJI = '🇬🇬';
+export const GUINEA_FLAG_EMOJI = '🇬🇳';
+export const GUINEA_BISSAU_FLAG_EMOJI = '🇬🇼';
+export const GUYANA_FLAG_EMOJI = '🇬🇾';
+export const HAITI_FLAG_EMOJI = '🇭🇹';
+export const HEARD_AND_MCDONALD_ISLANDS_FLAG_EMOJI = '🇭🇲';
+export const HONDURAS_FLAG_EMOJI = '🇭🇳';
+export const HONG_KONG_FLAG_EMOJI = '🇭🇰';
+export const HUNGARY_FLAG_EMOJI = '🇭🇺';
+export const ICELAND_FLAG_EMOJI = '🇮🇸';
+export const INDIA_FLAG_EMOJI = '🇮🇳';
+export const INDONESIA_FLAG_EMOJI = '🇮🇩';
+export const IRAN_FLAG_EMOJI = '🇮🇷';
+export const IRAQ_FLAG_EMOJI = '🇮🇶';
+export const IRELAND_FLAG_EMOJI = '🇮🇪';
+export const ISLE_OF_MAN_FLAG_EMOJI = '🇮🇲';
+export const ISRAEL_FLAG_EMOJI = '🇮🇱';
+export const ITALY_FLAG_EMOJI = '🇮🇹';
+export const IVORY_COAST_FLAG_EMOJI = '🇨🇮';
+export const JAMAICA_FLAG_EMOJI = '🇯🇲';
+export const JAPAN_FLAG_EMOJI = '🇯🇵';
+export const JERSEY_FLAG_EMOJI = '🇯🇪';
+export const JORDAN_FLAG_EMOJI = '🇯🇴';
+export const KAZAKHSTAN_FLAG_EMOJI = '🇰🇿';
+export const KENYA_FLAG_EMOJI = '🇰🇪';
+export const KIRIBATI_FLAG_EMOJI = '🇰🇮';
+export const KOSOVO_FLAG_EMOJI = '🇽🇰';
+export const KUWAIT_FLAG_EMOJI = '🇰🇼';
+export const KYRGYZSTAN_FLAG_EMOJI = '🇰🇬';
+export const LAOS_FLAG_EMOJI = '🇱🇦';
+export const LATVIA_FLAG_EMOJI = '🇱🇻';
+export const LEBANON_FLAG_EMOJI = '🇱🇧';
+export const LESOTHO_FLAG_EMOJI = '🇱🇸';
+export const LIBERIA_FLAG_EMOJI = '🇱🇷';
+export const LIBYA_FLAG_EMOJI = '🇱🇾';
+export const LIECHTENSTEIN_FLAG_EMOJI = '🇱🇮';
+export const LITHUANIA_FLAG_EMOJI = '🇱🇹';
+export const LUXEMBOURG_FLAG_EMOJI = '🇱🇺';
+export const MACAO_FLAG_EMOJI = '🇲🇴';
+export const MADAGASCAR_FLAG_EMOJI = '🇲🇬';
+export const MALAWI_FLAG_EMOJI = '🇲🇼';
+export const MALAYSIA_FLAG_EMOJI = '🇲🇾';
+export const MALDIVES_FLAG_EMOJI = '🇲🇻';
+export const MALI_FLAG_EMOJI = '🇲🇱';
+export const MALTA_FLAG_EMOJI = '🇲🇹';
+export const MARSHALL_ISLANDS_FLAG_EMOJI = '🇲🇭';
+export const MARTINIQUE_FLAG_EMOJI = '🇲🇶';
+export const MAURITANIA_FLAG_EMOJI = '🇲🇷';
+export const MAURITIUS_FLAG_EMOJI = '🇲🇺';
+export const MAYOTTE_FLAG_EMOJI = '🇾🇹';
+export const MEXICO_FLAG_EMOJI = '🇲🇽';
+export const MICRONESIA_FLAG_EMOJI = '🇫🇲';
+export const MOLDOVA_FLAG_EMOJI = '🇲🇩';
+export const MONACO_FLAG_EMOJI = '🇲🇨';
+export const MONGOLIA_FLAG_EMOJI = '🇲🇳';
+export const MONTENEGRO_FLAG_EMOJI = '🇲🇪';
+export const MONTSERRAT_FLAG_EMOJI = '🇲🇸';
+export const MOROCCO_FLAG_EMOJI = '🇲🇦';
+export const MOZAMBIQUE_FLAG_EMOJI = '🇲🇿';
+export const MYANMAR_FLAG_EMOJI = '🇲🇲';
+export const NAMIBIA_FLAG_EMOJI = '🇳🇦';
+export const NAURU_FLAG_EMOJI = '🇳🇷';
+export const NEPAL_FLAG_EMOJI = '🇳🇵';
+export const NETHERLANDS_FLAG_EMOJI = '🇳🇱';
+export const NEW_CALEDONIA_FLAG_EMOJI = '🇳🇨';
+export const NEW_ZEALAND_FLAG_EMOJI = '🇳🇿';
+export const NICARAGUA_FLAG_EMOJI = '🇳🇮';
+export const NIGER_FLAG_EMOJI = '🇳🇪';
+export const NIGERIA_FLAG_EMOJI = '🇳🇬';
+export const NIUE_FLAG_EMOJI = '🇳🇺';
+export const NORFOLK_ISLAND_FLAG_EMOJI = '🇳🇫';
+export const NORTH_KOREA_FLAG_EMOJI = '🇰🇵';
+export const NORTH_MACEDONIA_FLAG_EMOJI = '🇲🇰';
+export const NORTHERN_MARIANA_ISLANDS_FLAG_EMOJI = '🇲🇵';
+export const NORWAY_FLAG_EMOJI = '🇳🇴';
+export const OMAN_FLAG_EMOJI = '🇴🇲';
+export const PAKISTAN_FLAG_EMOJI = '🇵🇰';
+export const PALAU_FLAG_EMOJI = '🇵🇼';
+export const PALESTINE_FLAG_EMOJI = '🇵🇸';
+export const PANAMA_FLAG_EMOJI = '🇵🇦';
+export const PAPUA_NEW_GUINEA_FLAG_EMOJI = '🇵🇬';
+export const PARAGUAY_FLAG_EMOJI = '🇵🇾';
+export const PERU_FLAG_EMOJI = '🇵🇪';
+export const PHILIPPINES_FLAG_EMOJI = '🇵🇭';
+export const PITCAIRN_ISLANDS_FLAG_EMOJI = '🇵🇳';
+export const POLAND_FLAG_EMOJI = '🇵🇱';
+export const PORTUGAL_FLAG_EMOJI = '🇵🇹';
+export const PUERTO_RICO_FLAG_EMOJI = '🇵🇷';
+export const QATAR_FLAG_EMOJI = '🇶🇦';
+export const REUNION_FLAG_EMOJI = '🇷🇪';
+export const ROMANIA_FLAG_EMOJI = '🇷🇴';
+export const RUSSIA_FLAG_EMOJI = '🇷🇺';
+export const RWANDA_FLAG_EMOJI = '🇷🇼';
+export const SAMOA_FLAG_EMOJI = '🇼🇸';
+export const SAN_MARINO_FLAG_EMOJI = '🇸🇲';
+export const SAO_TOME_AND_PRINCIPE_FLAG_EMOJI = '🇸🇹';
+export const SAUDI_ARABIA_FLAG_EMOJI = '🇸🇦';
+export const SCOTLAND_FLAG_EMOJI = '🏴󠁧󠁢󠁳󠁣󠁴󠁿';
+export const SENEGAL_FLAG_EMOJI = '🇸🇳';
+export const SERBIA_FLAG_EMOJI = '🇷🇸';
+export const SEYCHELLES_FLAG_EMOJI = '🇸🇨';
+export const SIERRA_LEONE_FLAG_EMOJI = '🇸🇱';
+export const SINGAPORE_FLAG_EMOJI = '🇸🇬';
+export const SINT_MAARTEN_FLAG_EMOJI = '🇸🇽';
+export const SLOVAKIA_FLAG_EMOJI = '🇸🇰';
+export const SLOVENIA_FLAG_EMOJI = '🇸🇮';
+export const SOLOMON_ISLANDS_FLAG_EMOJI = '🇸🇧';
+export const SOMALIA_FLAG_EMOJI = '🇸🇴';
+export const SOUTH_AFRICA_FLAG_EMOJI = '🇿🇦';
+export const SOUTH_GEORGIA_AND_SOUTH_SANDWICH_ISLANDS_FLAG_EMOJI = '🇬🇸';
+export const SOUTH_KOREA_FLAG_EMOJI = '🇰🇷';
+export const SOUTH_SUDAN_FLAG_EMOJI = '🇸🇸';
+export const SPAIN_FLAG_EMOJI = '🇪🇸';
+export const SRI_LANKA_FLAG_EMOJI = '🇱🇰';
+export const ST_BARTHELEMY_FLAG_EMOJI = '🇧🇱';
+export const ST_HELENA_FLAG_EMOJI = '🇸🇭';
+export const ST_KITTS_AND_NEVIS_FLAG_EMOJI = '🇰🇳';
+export const ST_LUCIA_FLAG_EMOJI = '🇱🇨';
+export const ST_MARTIN_FLAG_EMOJI = '🇲🇫';
+export const ST_PIERRE_AND_MIQUELON_FLAG_EMOJI = '🇵🇲';
+export const ST_VINCENT_AND_GRENADINES_FLAG_EMOJI = '🇻🇨';
+export const SUDAN_FLAG_EMOJI = '🇸🇩';
+export const SURINAME_FLAG_EMOJI = '🇸🇷';
+export const SVALBARD_AND_JAN_MAYEN_FLAG_EMOJI = '🇸🇯';
+export const SWEDEN_FLAG_EMOJI = '🇸🇪';
+export const SWITZERLAND_FLAG_EMOJI = '🇨🇭';
+export const SYRIA_FLAG_EMOJI = '🇸🇾';
+export const TAIWAN_FLAG_EMOJI = '🇹🇼';
+export const TAJIKISTAN_FLAG_EMOJI = '🇹🇯';
+export const TANZANIA_FLAG_EMOJI = '🇹🇿';
+export const THAILAND_FLAG_EMOJI = '🇹🇭';
+export const TIMOR_LESTE_FLAG_EMOJI = '🇹🇱';
+export const TOGO_FLAG_EMOJI = '🇹🇬';
+export const TOKELAU_FLAG_EMOJI = '🇹🇰';
+export const TONGA_FLAG_EMOJI = '🇹🇴';
+export const TRINIDAD_AND_TOBAGO_FLAG_EMOJI = '🇹🇹';
+export const TRISTAN_DA_CUNHA_FLAG_EMOJI = '🇹🇦';
+export const TUNISIA_FLAG_EMOJI = '🇹🇳';
+export const TURKEY_FLAG_EMOJI = '🇹🇷';
+export const TURKMENISTAN_FLAG_EMOJI = '🇹🇲';
+export const TURKS_AND_CAICOS_ISLANDS_FLAG_EMOJI = '🇹🇨';
+export const TUVALU_FLAG_EMOJI = '🇹🇻';
+export const US_VIRGIN_ISLANDS_FLAG_EMOJI = '🇻🇮';
+export const UGANDA_FLAG_EMOJI = '🇺🇬';
+export const UKRAINE_FLAG_EMOJI = '🇺🇦';
+export const UNITED_ARAB_EMIRATES_FLAG_EMOJI = '🇦🇪';
+export const UNITED_STATES_FLAG_EMOJI = '🇺🇸';
+export const URUGUAY_FLAG_EMOJI = '🇺🇾';
+export const UZBEKISTAN_FLAG_EMOJI = '🇺🇿';
+export const VANUATU_FLAG_EMOJI = '🇻🇺';
+export const VATICAN_CITY_FLAG_EMOJI = '🇻🇦';
+export const VENEZUELA_FLAG_EMOJI = '🇻🇪';
+export const VIETNAM_FLAG_EMOJI = '🇻🇳';
+export const WALES_FLAG_EMOJI = '🏴󠁧󠁢󠁷󠁬󠁳󠁿';
+export const WALLIS_AND_FUTUNA_FLAG_EMOJI = '🇼🇫';
+export const WESTERN_SAHARA_FLAG_EMOJI = '🇪🇭';
+export const YEMEN_FLAG_EMOJI = '🇾🇪';
+export const ZAMBIA_FLAG_EMOJI = '🇿🇲';
+export const ZIMBABWE_FLAG_EMOJI = '🇿🇼';
 
-export const AFGHANISTAN = { name: 'Afghanistan' as CountryName, emoji: '🇦🇫' };
-export const ALAND_ISLANDS = { name: 'Aland Islands' as CountryName, emoji: '🇦🇽' };
-export const ALBANIA = { name: 'Albania' as CountryName, emoji: '🇦🇱' };
-export const ALGERIA = { name: 'Algeria' as CountryName, emoji: '🇩🇿' };
-export const AMERICAN_SAMOA = { name: 'American Samoa' as CountryName, emoji: '🇦🇸' };
-export const ANDORRA = { name: 'Andorra' as CountryName, emoji: '🇦🇩' };
-export const ANGOLA = { name: 'Angola' as CountryName, emoji: '🇦🇴' };
-export const ANGUILLA = { name: 'Angilla' as CountryName, emoji: '🇦🇮' };
-export const ANTARCTICA = { name: 'Antarctica' as CountryName, emoji: '🇦🇶' };
-export const ANTIGUA_AND_BARBUDA = { name: 'Antigua & Barbuda' as CountryName, emoji: '🇦🇬' };
-export const ARGENTINA = { name: 'Argentina' as CountryName, emoji: '🇦🇷' };
-export const ARMENIA = { name: 'Armenia' as CountryName, emoji: '🇦🇲' };
-export const ARUBA = { name: 'Aruba' as CountryName, emoji: '🇦🇼' };
-export const ASCENSION_ISLAND = { name: 'Ascension Island' as CountryName, emoji: '🇦🇨' };
-export const AUSTRALIA = { name: 'Australia' as CountryName, emoji: '🇦🇺' };
-export const AUSTRIA = { name: 'Austria' as CountryName, emoji: '🇦🇹' };
-export const AZERBAIJAN = { name: 'Azerbaijan' as CountryName, emoji: '🇦🇿' };
-export const BAHAMAS = { name: 'Bahamas' as CountryName, emoji: '🇧🇸' };
-export const BAHRAIN = { name: 'Bahrain' as CountryName, emoji: '🇧🇭' };
-export const BANGLADESH = { name: 'Bangladesh' as CountryName, emoji: '🇧🇩' };
-export const BARBADOS = { name: 'Barbados' as CountryName, emoji: '🇧🇧' };
-export const BELARUS = { name: 'Belarus' as CountryName, emoji: '🇧🇾' };
-export const BELGIUM = { name: 'Belgium' as CountryName, emoji: '🇧🇪' };
-export const BELIZE = { name: 'Belize' as CountryName, emoji: '🇧🇿' };
-export const BENIN = { name: 'Benin' as CountryName, emoji: '🇧🇯' };
-export const BERMUDA = { name: 'Bermuda' as CountryName, emoji: '🇧🇲' };
-export const BHUTAN = { name: 'Bhutan' as CountryName, emoji: '🇧🇹' };
-export const BOLIVIA = { name: 'Bolivia' as CountryName, emoji: '🇧🇴' };
-export const BONAIRE = { name: 'Bonaire' as CountryName, emoji: '🇧🇶' };
-export const BOSNIA_AND_HERZEGOVINA = { name: 'Bosnia & Herzegovina' as CountryName, emoji: '🇧🇦' };
-export const BOTSWANA = { name: 'Botswana' as CountryName, emoji: '🇧🇼' };
-export const BOUVET_ISLAND = { name: 'Bouvet Island' as CountryName, emoji: '🇧🇻' };
-export const BRAZIL = { name: 'Brazil' as CountryName, emoji: '🇧🇷' };
-export const BRITISH_INDIAN_OCEAN_TERRITORY = {
-  name: 'British Indian Ocean Territory' as CountryName,
-  emoji: '🇮🇴',
-};
-export const BRITISH_VIRGIN_ISLANDS = { name: 'British Virgin Islands' as CountryName, emoji: '🇻🇬' };
-export const BRUNEI = { name: 'Brunei' as CountryName, emoji: '🇧🇳' };
-export const BULGARIA = { name: 'Bulgaria' as CountryName, emoji: '🇧🇬' };
-export const BURKINA_FASO = { name: 'Burkina Faso' as CountryName, emoji: '🇧🇫' };
-export const BURUNDI = { name: 'Burundi' as CountryName, emoji: '🇧🇮' };
-export const CAMBODIA = { name: 'Cambodia' as CountryName, emoji: '🇰🇭' };
-export const CAMEROON = { name: 'Cameroon' as CountryName, emoji: '🇨🇲' };
-export const CANADA = { name: 'Canada' as CountryName, emoji: '🇨🇦' };
-export const CANARY_ISLANDS = { name: 'Canary Islands' as CountryName, emoji: '🇮🇨' };
-export const CAPE_VERDE = { name: 'Cape Verde' as CountryName, emoji: '🇨🇻' };
-export const CARIBBEAN_NETHERLANDS = { name: 'Caribbean Netherlands' as CountryName, emoji: '🇧🇶' };
-export const CAYMAN_ISLANDS = { name: 'Cayman Islands' as CountryName, emoji: '🇰🇾' };
-export const CENTRAL_AFRICAN_REPUBLIC = { name: 'Central African Republic' as CountryName, emoji: '🇨🇫' };
-export const CEUTA_AND_MELILLA = { name: 'Ceuta & Melilla' as CountryName, emoji: '🇪🇦' };
-export const CHAD = { name: 'Chad' as CountryName, emoji: '🇹🇩' };
-export const CHILE = { name: 'Chile' as CountryName, emoji: '🇨🇱' };
-export const CHINA = { name: 'China' as CountryName, emoji: '🇨🇳' };
-export const CHRISTMAS_ISLAND = { name: 'Christmas Island' as CountryName, emoji: '🇨🇽' };
-export const CLIPPERTON_ISLAND = { name: 'Clipperton Island' as CountryName, emoji: '🇨🇵' };
-export const COCOS_KEELING_ISLANDS = { name: 'Cocos (Keeling) Islands' as CountryName, emoji: '🇨🇨' };
-export const COLOMBIA = { name: 'Colombia' as CountryName, emoji: '🇨🇴' };
-export const COMOROS = { name: 'Comoros' as CountryName, emoji: '🇰🇲' };
-export const CONGO_BRAZZAVILLE = { name: 'Congo - Brazzaville' as CountryName, emoji: '🇨🇬' };
-export const CONGO_KINSHASA = { name: 'Congo - Kinshasa' as CountryName, emoji: '🇨🇩' };
-export const COOK_ISLANDS = { name: 'Cook Islands' as CountryName, emoji: '🇨🇰' };
-export const COSTA_RICA = { name: 'Costa Rica' as CountryName, emoji: '🇨🇷' };
-export const CROATIA = { name: 'Croatia' as CountryName, emoji: '🇭🇷' };
-export const CUBA = { name: 'Cuba' as CountryName, emoji: '🇨🇺' };
-export const CURACAO = { name: 'Curaçao' as CountryName, emoji: '🇨🇼' };
-export const CYPRUS = { name: 'Cyprus' as CountryName, emoji: '🇨🇾' };
-export const CZECHIA = { name: 'Czechia' as CountryName, emoji: '🇨🇿' };
-export const DENMARK = { name: 'Denmark' as CountryName, emoji: '🇩🇰' };
-export const DIEGO_GARCIA = { name: 'Diego Garcia' as CountryName, emoji: '🇩🇬' };
-export const DJIBOUTI = { name: 'Djibouti' as CountryName, emoji: '🇩🇯' };
-export const DOMINICA = { name: 'Dominica' as CountryName, emoji: '🇩🇲' };
-export const DOMINICAN_REPUBLIC = { name: 'Dominican Republic' as CountryName, emoji: '🇩🇴' };
-export const ECUADOR = { name: 'Ecuador' as CountryName, emoji: '🇪🇨' };
-export const EGYPT = { name: 'Egypt' as CountryName, emoji: '🇪🇬' };
-export const EL_SALVADOR = { name: 'El Salvador' as CountryName, emoji: '🇸🇻' };
-export const ENGLAND = { name: 'England', emoji: '🏴󠁧󠁢󠁥󠁮󠁧󠁿' };
-export const EQUATORIAL_GUINEA = { name: 'Equatorial Guinea' as CountryName, emoji: '🇬🇶' };
-export const ERITREA = { name: 'Eritrea' as CountryName, emoji: '🇪🇷' };
-export const ESTONIA = { name: 'Estonia' as CountryName, emoji: '🇪🇪' };
-export const ESWATINI = { name: 'Eswatini' as CountryName, emoji: '🇸🇿' };
-export const ETHIOPIA = { name: 'Ethiopia' as CountryName, emoji: '🇪🇹' };
-export const FALKLAND_ISLANDS = { name: 'Falkland Islands' as CountryName, emoji: '🇫🇰' };
-export const FAROE_ISLANDS = { name: 'Faroe Islands' as CountryName, emoji: '🇫🇴' };
-export const FIJI = { name: 'Fiji' as CountryName, emoji: '🇫🇯' };
-export const FINLAND = { name: 'Finland' as CountryName, emoji: '🇫🇮' };
-export const FRANCE = { name: 'France' as CountryName, emoji: '🇫🇷' };
-export const FRENCH_GUIANA = { name: 'French Guiana' as CountryName, emoji: '🇬🇫' };
-export const FRENCH_POLYNESIA = { name: 'French Polynesia' as CountryName, emoji: '🇵🇫' };
-export const FRENCH_SOUTHERN_TERRITORIES = {
-  name: 'French Southern Territories' as CountryName,
-  emoji: '🇹🇫',
-};
-export const GABON = { name: 'Gabon' as CountryName, emoji: '🇬🇦' };
-export const GAMBIA = { name: 'Gambia' as CountryName, emoji: '🇬🇲' };
-export const GEORGIA = { name: 'Georgia' as CountryName, emoji: '🇬🇪' };
-export const GERMANY = { name: 'Germany' as CountryName, emoji: '🇩🇪' };
-export const GHANA = { name: 'Ghana' as CountryName, emoji: '🇬🇭' };
-export const GIBRALTAR = { name: 'Gibraltar' as CountryName, emoji: '🇬🇮' };
-export const GREECE = { name: 'Greece' as CountryName, emoji: '🇬🇷' };
-export const GREENLAND = { name: 'Greenland' as CountryName, emoji: '🇬🇱' };
-export const GRENADA = { name: 'Grenada' as CountryName, emoji: '🇬🇩' };
-export const GUADELOUPE = { name: 'Guadeloupe' as CountryName, emoji: '🇬🇵' };
-export const GUAM = { name: 'Guam' as CountryName, emoji: '🇬🇺' };
-export const GUATEMALA = { name: 'Guatemala' as CountryName, emoji: '🇬🇹' };
-export const GUERNSEY = { name: 'Guernsey' as CountryName, emoji: '🇬🇬' };
-export const GUINEA = { name: 'Guinea' as CountryName, emoji: '🇬🇳' };
-export const GUINEA_BISSAU = { name: 'Guinea-Bissau' as CountryName, emoji: '🇬🇼' };
-export const GUYANA = { name: 'Guyana' as CountryName, emoji: '🇬🇾' };
-export const HAITI = { name: 'Haiti' as CountryName, emoji: '🇭🇹' };
-export const HEARD_AND_MCDONALD_ISLANDS = { name: 'Heard & McDonald Islands' as CountryName, emoji: '🇭🇲' };
-export const HONDURAS = { name: 'Honduras' as CountryName, emoji: '🇭🇳' };
-export const HONG_KONG = { name: 'Hong Kong' as CountryName, emoji: '🇭🇰' };
-export const HUNGARY = { name: 'Hungary' as CountryName, emoji: '🇭🇺' };
-export const ICELAND = { name: 'Iceland' as CountryName, emoji: '🇮🇸' };
-export const INDIA = { name: 'India' as CountryName, emoji: '🇮🇳' };
-export const INDONESIA = { name: 'Indonesia' as CountryName, emoji: '🇮🇩' };
-export const IRAN = { name: 'Iran' as CountryName, emoji: '🇮🇷' };
-export const IRAQ = { name: 'Iraq' as CountryName, emoji: '🇮🇶' };
-export const IRELAND = { name: 'Ireland' as CountryName, emoji: '🇮🇪' };
-export const ISLE_OF_MAN = { name: 'Isle of Man' as CountryName, emoji: '🇮🇲' };
-export const ISRAEL = { name: 'Israel' as CountryName, emoji: '🇮🇱' };
-export const ITALY = { name: 'Italy' as CountryName, emoji: '🇮🇹' };
-export const IVORY_COAST = { name: 'Ivory Coast' as CountryName, emoji: '🇨🇮' };
-export const JAMAICA = { name: 'Jamaica' as CountryName, emoji: '🇯🇲' };
-export const JAPAN = { name: 'Japan' as CountryName, emoji: '🇯🇵' };
-export const JERSEY = { name: 'Jersey' as CountryName, emoji: '🇯🇪' };
-export const JORDAN = { name: 'Jordan' as CountryName, emoji: '🇯🇴' };
-export const KAZAKHSTAN = { name: 'Kazakhstan' as CountryName, emoji: '🇰🇿' };
-export const KENYA = { name: 'Kenya' as CountryName, emoji: '🇰🇪' };
-export const KIRIBATI = { name: 'Kiribati' as CountryName, emoji: '🇰🇮' };
-export const KOSOVO = { name: 'Kosovo' as CountryName, emoji: '🇽🇰' };
-export const KUWAIT = { name: 'Kuwait' as CountryName, emoji: '🇰🇼' };
-export const KYRGYZSTAN = { name: 'Kyrgyzstan' as CountryName, emoji: '🇰🇬' };
-export const LAOS = { name: 'Laos' as CountryName, emoji: '🇱🇦' };
-export const LATVIA = { name: 'Latvia' as CountryName, emoji: '🇱🇻' };
-export const LEBANON = { name: 'Lebanon' as CountryName, emoji: '🇱🇧' };
-export const LESOTHO = { name: 'Lesotho' as CountryName, emoji: '🇱🇸' };
-export const LIBERIA = { name: 'Liberia' as CountryName, emoji: '🇱🇷' };
-export const LIBYA = { name: 'Libya' as CountryName, emoji: '🇱🇾' };
-export const LIECHTENSTEIN = { name: 'Liechtenstein' as CountryName, emoji: '🇱🇮' };
-export const LITHUANIA = { name: 'Lithuania' as CountryName, emoji: '🇱🇹' };
-export const LUXEMBOURG = { name: 'Luxembourg' as CountryName, emoji: '🇱🇺' };
-export const MACAO = { name: 'Macao' as CountryName, emoji: '🇲🇴' };
-export const MADAGASCAR = { name: 'Madagascar' as CountryName, emoji: '🇲🇬' };
-export const MALAWI = { name: 'Malawi' as CountryName, emoji: '🇲🇼' };
-export const MALAYSIA = { name: 'Malaysia' as CountryName, emoji: '🇲🇾' };
-export const MALDIVES = { name: 'Maldives' as CountryName, emoji: '🇲🇻' };
-export const MALI = { name: 'Mali' as CountryName, emoji: '🇲🇱' };
-export const MALTA = { name: 'Malta' as CountryName, emoji: '🇲🇹' };
-export const MARSHALL_ISLANDS = { name: 'Marshall Islands' as CountryName, emoji: '🇲🇭' };
-export const MARTINIQUE = { name: 'Martinique' as CountryName, emoji: '🇲🇶' };
-export const MAURITANIA = { name: 'Mauritania' as CountryName, emoji: '🇲🇷' };
-export const MAURITIUS = { name: 'Mauritius' as CountryName, emoji: '🇲🇺' };
-export const MAYOTTE = { name: 'Mayotte' as CountryName, emoji: '🇾🇹' };
-export const MEXICO = { name: 'Mexico' as CountryName, emoji: '🇲🇽' };
-export const MICRONESIA = { name: 'Micronesia' as CountryName, emoji: '🇫🇲' };
-export const MOLDOVA = { name: 'Moldova' as CountryName, emoji: '🇲🇩' };
-export const MONACO = { name: 'Monaco' as CountryName, emoji: '🇲🇨' };
-export const MONGOLIA = { name: 'Mongolia' as CountryName, emoji: '🇲🇳' };
-export const MONTENEGRO = { name: 'Montenegro' as CountryName, emoji: '🇲🇪' };
-export const MONTSERRAT = { name: 'Montserrat' as CountryName, emoji: '🇲🇸' };
-export const MOROCCO = { name: 'Morocco' as CountryName, emoji: '🇲🇦' };
-export const MOZAMBIQUE = { name: 'Mozambique' as CountryName, emoji: '🇲🇿' };
-export const MYANMAR = { name: 'Myanmar' as CountryName, emoji: '🇲🇲' };
-export const NAMIBIA = { name: 'Namibia' as CountryName, emoji: '🇳🇦' };
-export const NAURU = { name: 'Nauru' as CountryName, emoji: '🇳🇷' };
-export const NEPAL = { name: 'Nepal' as CountryName, emoji: '🇳🇵' };
-export const NETHERLANDS = { name: 'Netherlands' as CountryName, emoji: '🇳🇱' };
-export const NEW_CALEDONIA = { name: 'New Caledonia' as CountryName, emoji: '🇳🇨' };
-export const NEW_ZEALAND = { name: 'New Zealand' as CountryName, emoji: '🇳🇿' };
-export const NICARAGUA = { name: 'Nicaragua' as CountryName, emoji: '🇳🇮' };
-export const NIGER = { name: 'Niger' as CountryName, emoji: '🇳🇪' };
-export const NIGERIA = { name: 'Nigeria' as CountryName, emoji: '🇳🇬' };
-export const NIUE = { name: 'Niue' as CountryName, emoji: '🇳🇺' };
-export const Norfolk_Island = { name: 'Norfolk Island' as CountryName, emoji: '🇳🇫' };
-export const NORTH_KOREA = { name: 'North Korea' as CountryName, emoji: '🇰🇵' };
-export const NORTH_MACEDONIA = { name: 'North Macedonia' as CountryName, emoji: '🇲🇰' };
-export const NORTHERN_MARIANA_ISLANDS = { name: 'Northern Mariana Islands' as CountryName, emoji: '🇲🇵' };
-export const NORWAY = { name: 'Norway' as CountryName, emoji: '🇳🇴' };
-export const OMAN = { name: 'Oman' as CountryName, emoji: '🇴🇲' };
-export const PAKISTAN = { name: 'Pakistan' as CountryName, emoji: '🇵🇰' };
-export const PALAU = { name: 'Palau' as CountryName, emoji: '🇵🇼' };
-export const PALESTINE = { name: 'Palestine' as CountryName, emoji: '🇵🇸' };
-export const PANAMA = { name: 'Panama' as CountryName, emoji: '🇵🇦' };
-export const PAPUA_NEW_GUINEA = { name: 'Papua New Guinea' as CountryName, emoji: '🇵🇬' };
-export const PARAGUAY = { name: 'Paragay' as CountryName, emoji: '🇵🇾' };
-export const PERU = { name: 'Peru' as CountryName, emoji: '🇵🇪' };
-export const PHILIPPINES = { name: 'Philippines' as CountryName, emoji: '🇵🇭' };
-export const PITCAIRN_ISLANDS = { name: 'Pitcairn Islands' as CountryName, emoji: '🇵🇳' };
-export const POLAND = { name: 'Poland' as CountryName, emoji: '🇵🇱' };
-export const PORTUGAL = { name: 'Portugal' as CountryName, emoji: '🇵🇹' };
-export const PUERTO_RICO = { name: 'Puerto Rico' as CountryName, emoji: '🇵🇷' };
-export const QATAR = { name: 'Qatar' as CountryName, emoji: '🇶🇦' };
-export const REUNION = { name: 'Réunion' as CountryName, emoji: '🇷🇪' };
-export const ROMANIA = { name: 'Romania' as CountryName, emoji: '🇷🇴' };
-export const RUSSIA = { name: 'Russia' as CountryName, emoji: '🇷🇺' };
-export const RWANDA = { name: 'Rwanda' as CountryName, emoji: '🇷🇼' };
-export const SAMOA = { name: 'Samoa' as CountryName, emoji: '🇼🇸' };
-export const SAN_MARINO = { name: 'San Marino' as CountryName, emoji: '🇸🇲' };
-export const SAO_TOME_AND_PRINCIPE = { name: 'Sáo Tomé & Príncipe' as CountryName, emoji: '🇸🇹' };
-export const SAUDI_ARABIA = { name: 'Saudi Arabia' as CountryName, emoji: '🇸🇦' };
-export const SCOTLAND = { name: 'Scotland', emoji: '🏴󠁧󠁢󠁳󠁣󠁴󠁿' };
-export const SENEGAL = { name: 'Senegal' as CountryName, emoji: '🇸🇳' };
-export const SERBIA = { name: 'Serbia' as CountryName, emoji: '🇷🇸' };
-export const SEYCHELLES = { name: 'Seychelles' as CountryName, emoji: '🇸🇨' };
-export const SIERRA_LEONE = { name: 'Sierra Leone' as CountryName, emoji: '🇸🇱' };
-export const SINGAPORE = { name: 'Singapore' as CountryName, emoji: '🇸🇬' };
-export const SINT_MAARTEN = { name: 'Sint Maarten' as CountryName, emoji: '🇸🇽' };
-export const SLOVAKIA = { name: 'Slovakia' as CountryName, emoji: '🇸🇰' };
-export const SLOVENIA = { name: 'Slovenia' as CountryName, emoji: '🇸🇮' };
-export const SOLOMON_ISLANDS = { name: 'Solomon Islands' as CountryName, emoji: '🇸🇧' };
-export const SOMALIA = { name: 'Somalia' as CountryName, emoji: '🇸🇴' };
-export const SOUTH_AFRICA = { name: 'South Africa' as CountryName, emoji: '🇿🇦' };
-export const SOUTH_GEORGIA_AND_SOUTH_SANDWICH_ISLANDS = {
-  name: 'South Georgia & South Sandwich Islands' as CountryName,
-  emoji: '🇬🇸',
-};
-export const SOUTH_KOREA = { name: 'South Korea' as CountryName, emoji: '🇰🇷' };
-export const SOUTH_SUDAN = { name: 'South Sudan' as CountryName, emoji: '🇸🇸' };
-export const SPAIN = { name: 'Spain' as CountryName, emoji: '🇪🇸' };
-export const SRI_LANKA = { name: 'Sri Lanka' as CountryName, emoji: '🇱🇰' };
-export const ST_BARTHELEMY = { name: 'St. Barthélemy' as CountryName, emoji: '🇧🇱' };
-export const ST_HELENA = { name: 'St. Helena' as CountryName, emoji: '🇸🇭' };
-export const ST_KITTS_AND_NEVIS = { name: 'St. Kitts & Nevis' as CountryName, emoji: '🇰🇳' };
-export const ST_LUCIA = { name: 'St. Lucia' as CountryName, emoji: '🇱🇨' };
-export const ST_MARTIN = { name: 'St. Martin' as CountryName, emoji: '🇲🇫' };
-export const ST_PIERRE_AND_MIQUELON = { name: 'St. Pierre & Miquelon' as CountryName, emoji: '🇵🇲' };
-export const ST_VINCENT_AND_GRENADINES = { name: 'St. Vincent & Grenadines' as CountryName, emoji: '🇻🇨' };
-export const SUDAN = { name: 'Sudan' as CountryName, emoji: '🇸🇩' };
-export const SURINAME = { name: 'Suriname' as CountryName, emoji: '🇸🇷' };
-export const SVALBARD_AND_JAN_MAYEN = { name: 'Svalbard & Jan Mayen' as CountryName, emoji: '🇸🇯' };
-export const SWEDEN = { name: 'Sweden' as CountryName, emoji: '🇸🇪' };
-export const SWITZERLAND = { name: 'Switzerland' as CountryName, emoji: '🇨🇭' };
-export const SYRIA = { name: 'Syria' as CountryName, emoji: '🇸🇾' };
-export const TAIWAN = { name: 'Taiwan' as CountryName, emoji: '🇹🇼' };
-export const TAJIKISTAN = { name: 'Tajikistan' as CountryName, emoji: '🇹🇯' };
-export const TANZANIA = { name: 'Tanzania' as CountryName, emoji: '🇹🇿' };
-export const THAILAND = { name: 'Thailand' as CountryName, emoji: '🇹🇭' };
-export const TIMOR_LESTE = { name: 'Timor-Leste' as CountryName, emoji: '🇹🇱' };
-export const TOGO = { name: 'Togo' as CountryName, emoji: '🇹🇬' };
-export const TOKELAU = { name: 'Tokelau' as CountryName, emoji: '🇹🇰' };
-export const TONGA = { name: 'Tonga' as CountryName, emoji: '🇹🇴' };
-export const TRINIDAD_AND_TOBAGO = { name: 'Trinidad & Tobago' as CountryName, emoji: '🇹🇹' };
-export const TRISTAN_DA_CUNHA = { name: 'Tristan da Cunha' as CountryName, emoji: '🇹🇦' };
-export const TUNISIA = { name: 'Tunisia' as CountryName, emoji: '🇹🇳' };
-export const TURKEY = { name: 'Turkey' as CountryName, emoji: '🇹🇷' };
-export const TURKMENISTAN = { name: 'Turkmenistan' as CountryName, emoji: '🇹🇲' };
-export const TURKS_AND_CAICOS_ISLANDS = { name: 'Turks & Caicos Islands' as CountryName, emoji: '🇹🇨' };
-export const TUVALU = { name: 'Tuvalu' as CountryName, emoji: '🇹🇻' };
-export const US_VIRGIN_ISLANDS = { name: 'U.S. Virgin Islands' as CountryName, emoji: '🇻🇮' };
-export const UGANDA = { name: 'Uganda' as CountryName, emoji: '🇺🇬' };
-export const UKRAINE = { name: 'Ukraine' as CountryName, emoji: '🇺🇦' };
-export const UNITED_ARAB_EMIRATES = { name: 'United Arab Emirates' as CountryName, emoji: '🇦🇪' };
-export const UNITED_STATES = { name: 'United States' as CountryName, emoji: '🇺🇸' };
-export const URUGUAY = { name: 'Uruguay' as CountryName, emoji: '🇺🇾' };
-export const UZBEKISTAN = { name: 'Uzbekistan' as CountryName, emoji: '🇺🇿' };
-export const VANUATU = { name: 'Vanuatu' as CountryName, emoji: '🇻🇺' };
-export const VATICAN_CITY = { name: 'Vatican City' as CountryName, emoji: '🇻🇦' };
-export const VENEZUELA = { name: 'Venezuela' as CountryName, emoji: '🇻🇪' };
-export const VIETNAM = { name: 'Vietnam' as CountryName, emoji: '🇻🇳' };
-export const WALES = { name: 'Wales', emoji: '🏴󠁧󠁢󠁷󠁬󠁳󠁿' };
-export const WALLIS_AND_FUTUNA = { name: 'Wallis & Futuna' as CountryName, emoji: '🇼🇫' };
-export const WESTERN_SAHARA = { name: 'Western Sahara' as CountryName, emoji: '🇪🇭' };
-export const YEMEN = { name: 'Yemen' as CountryName, emoji: '🇾🇪' };
-export const ZAMBIA = { name: 'Zambia' as CountryName, emoji: '🇿🇲' };
-export const ZIMBABWE = { name: 'Zimbabwe' as CountryName, emoji: '🇿🇼' };
+export const UNITED_KINGDOM_FLAG_EMOJI = '🇬🇧';
+export const UNITED_NATIONS_FLAG_EMOJI = '🇺🇳';
+export const EUROPEAN_UNION_FLAG_EMOJI = '🇪🇺';
 
-export type UnionFlag = 'United Kingdom' | 'United Nations' | 'European Union';
-export const UNITED_KINGDOM = { name: 'United Kingdom' as UnionFlag, emoji: '🇬🇧' };
-export const UNITED_NATIONS = { name: 'United Nations' as UnionFlag, emoji: '🇺🇳' };
-export const EUROPEAN_UNION = { name: 'European Union' as UnionFlag, emoji: '🇪🇺' };
+export const RAINBOW_FLAG_EMOJI = '🏳️‍🌈';
+export const TRANS_FLAG_EMOJI = '🏳️‍⚧️';
 
-export type GenderFlag = 'Rainbow flag' | 'Transgender flag';
-export const RAINBOW_FLAG = { name: 'Rainbow flag' as GenderFlag, emoji: '🏳️‍🌈' };
-export const TRANS_FLAG = { name: 'Transgender flag' as GenderFlag, emoji: '🏳️‍⚧️' };
-
-export type OtherFlag =
-  | 'Chequered flag'
-  | 'Pirate flag'
-  | 'Black  flag'
-  | 'White  flag'
-  | 'Triangular flag'
-  | 'Crossed flags';
-export const CHEQUERED_FLAG = { name: 'Chequered flag' as OtherFlag, emoji: '🏁' };
-export const PIRATE_FLAG = { name: 'Pirate flag' as OtherFlag, emoji: '🏴‍☠️' };
-export const BLACK_FLAG = { name: 'Black  flag' as OtherFlag, emoji: '🏴' };
-export const WHITE_FLAG = { name: 'White  flag' as OtherFlag, emoji: '🏳' };
-export const TRIANGULAR_FLAG = { name: 'Triangular flag' as OtherFlag, emoji: '🚩' };
-export const CROSSED_FLAGS = { name: 'Crossed flags' as OtherFlag, emoji: '🎌' };
+export const CHEQUERED_FLAG_EMOJI = '🏁';
+export const PIRATE_FLAG_EMOJI = '🏴‍☠️';
+export const BLACK_FLAG_EMOJI = '🏴';
+export const WHITE_FLAG_EMOJI = '🏳';
+export const TRIANGULAR_FLAG_EMOJI = '🚩';
+export const CROSSED_FLAGS_EMOJI = '🎌';
 
 export const COUNTRY_FLAGS = [
-  AFGHANISTAN,
-  ALAND_ISLANDS,
-  ALBANIA,
-  ALGERIA,
-  AMERICAN_SAMOA,
-  ANDORRA,
-  ANGOLA,
-  ANGUILLA,
-  ANTARCTICA,
-  ANTIGUA_AND_BARBUDA,
-  ARGENTINA,
-  ARMENIA,
-  ARUBA,
-  ASCENSION_ISLAND,
-  AUSTRALIA,
-  AUSTRIA,
-  AZERBAIJAN,
-  BAHAMAS,
-  BAHRAIN,
-  BANGLADESH,
-  BARBADOS,
-  BELARUS,
-  BELGIUM,
-  BELIZE,
-  BENIN,
-  BERMUDA,
-  BHUTAN,
-  BOLIVIA,
-  BONAIRE,
-  BOSNIA_AND_HERZEGOVINA,
-  BOTSWANA,
-  BOUVET_ISLAND,
-  BRAZIL,
-  BRITISH_INDIAN_OCEAN_TERRITORY,
-  BRITISH_VIRGIN_ISLANDS,
-  BRUNEI,
-  BULGARIA,
-  BURKINA_FASO,
-  BURUNDI,
-  CAMBODIA,
-  CAMEROON,
-  CANADA,
-  CANARY_ISLANDS,
-  CAPE_VERDE,
-  CARIBBEAN_NETHERLANDS,
-  CAYMAN_ISLANDS,
-  CENTRAL_AFRICAN_REPUBLIC,
-  CEUTA_AND_MELILLA,
-  CHAD,
-  CHILE,
-  CHINA,
-  CHRISTMAS_ISLAND,
-  CLIPPERTON_ISLAND,
-  COCOS_KEELING_ISLANDS,
-  COLOMBIA,
-  COMOROS,
-  CONGO_BRAZZAVILLE,
-  CONGO_KINSHASA,
-  COOK_ISLANDS,
-  COSTA_RICA,
-  CROATIA,
-  CUBA,
-  CURACAO,
-  CYPRUS,
-  CZECHIA,
-  DENMARK,
-  DIEGO_GARCIA,
-  DJIBOUTI,
-  DOMINICA,
-  DOMINICAN_REPUBLIC,
-  ECUADOR,
-  EGYPT,
-  EL_SALVADOR,
-  ENGLAND,
-  EQUATORIAL_GUINEA,
-  ERITREA,
-  ESTONIA,
-  ESWATINI,
-  ETHIOPIA,
-  FALKLAND_ISLANDS,
-  FAROE_ISLANDS,
-  FIJI,
-  FINLAND,
-  FRANCE,
-  FRENCH_GUIANA,
-  FRENCH_POLYNESIA,
-  FRENCH_SOUTHERN_TERRITORIES,
-  GABON,
-  GAMBIA,
-  GEORGIA,
-  GERMANY,
-  GHANA,
-  GIBRALTAR,
-  GREECE,
-  GREENLAND,
-  GRENADA,
-  GUADELOUPE,
-  GUAM,
-  GUATEMALA,
-  GUERNSEY,
-  GUINEA,
-  GUINEA_BISSAU,
-  GUYANA,
-  HAITI,
-  HEARD_AND_MCDONALD_ISLANDS,
-  HONDURAS,
-  HONG_KONG,
-  HUNGARY,
-  ICELAND,
-  INDIA,
-  INDONESIA,
-  IRAN,
-  IRAQ,
-  IRELAND,
-  ISLE_OF_MAN,
-  ISRAEL,
-  ITALY,
-  IVORY_COAST,
-  JAMAICA,
-  JAPAN,
-  JERSEY,
-  JORDAN,
-  KAZAKHSTAN,
-  KENYA,
-  KIRIBATI,
-  KOSOVO,
-  KUWAIT,
-  KYRGYZSTAN,
-  LAOS,
-  LATVIA,
-  LEBANON,
-  LESOTHO,
-  LIBERIA,
-  LIBYA,
-  LIECHTENSTEIN,
-  LITHUANIA,
-  LUXEMBOURG,
-  MACAO,
-  MADAGASCAR,
-  MALAWI,
-  MALAYSIA,
-  MALDIVES,
-  MALI,
-  MALTA,
-  MARSHALL_ISLANDS,
-  MARTINIQUE,
-  MAURITANIA,
-  MAURITIUS,
-  MAYOTTE,
-  MEXICO,
-  MICRONESIA,
-  MOLDOVA,
-  MONACO,
-  MONGOLIA,
-  MONTENEGRO,
-  MONTSERRAT,
-  MOROCCO,
-  MOZAMBIQUE,
-  MYANMAR,
-  NAMIBIA,
-  NAURU,
-  NEPAL,
-  NETHERLANDS,
-  NEW_CALEDONIA,
-  NEW_ZEALAND,
-  NICARAGUA,
-  NIGER,
-  NIGERIA,
-  NIUE,
-  Norfolk_Island,
-  NORTH_KOREA,
-  NORTH_MACEDONIA,
-  NORTHERN_MARIANA_ISLANDS,
-  NORWAY,
-  OMAN,
-  PAKISTAN,
-  PALAU,
-  PALESTINE,
-  PANAMA,
-  PAPUA_NEW_GUINEA,
-  PARAGUAY,
-  PERU,
-  PHILIPPINES,
-  PITCAIRN_ISLANDS,
-  POLAND,
-  PORTUGAL,
-  PUERTO_RICO,
-  QATAR,
-  REUNION,
-  ROMANIA,
-  RUSSIA,
-  RWANDA,
-  SAMOA,
-  SAN_MARINO,
-  SAO_TOME_AND_PRINCIPE,
-  SAUDI_ARABIA,
-  SCOTLAND,
-  SENEGAL,
-  SERBIA,
-  SEYCHELLES,
-  SIERRA_LEONE,
-  SINGAPORE,
-  SINT_MAARTEN,
-  SLOVAKIA,
-  SLOVENIA,
-  SOLOMON_ISLANDS,
-  SOMALIA,
-  SOUTH_AFRICA,
-  SOUTH_GEORGIA_AND_SOUTH_SANDWICH_ISLANDS,
-  SOUTH_KOREA,
-  SOUTH_SUDAN,
-  SPAIN,
-  SRI_LANKA,
-  ST_BARTHELEMY,
-  ST_HELENA,
-  ST_KITTS_AND_NEVIS,
-  ST_LUCIA,
-  ST_MARTIN,
-  ST_PIERRE_AND_MIQUELON,
-  ST_VINCENT_AND_GRENADINES,
-  SUDAN,
-  SURINAME,
-  SVALBARD_AND_JAN_MAYEN,
-  SWEDEN,
-  SWITZERLAND,
-  SYRIA,
-  TAIWAN,
-  TAJIKISTAN,
-  TANZANIA,
-  THAILAND,
-  TIMOR_LESTE,
-  TOGO,
-  TOKELAU,
-  TONGA,
-  TRINIDAD_AND_TOBAGO,
-  TRISTAN_DA_CUNHA,
-  TUNISIA,
-  TURKEY,
-  TURKMENISTAN,
-  TURKS_AND_CAICOS_ISLANDS,
-  TUVALU,
-  US_VIRGIN_ISLANDS,
-  UGANDA,
-  UKRAINE,
-  UNITED_ARAB_EMIRATES,
-  UNITED_STATES,
-  URUGUAY,
-  UZBEKISTAN,
-  VANUATU,
-  VATICAN_CITY,
-  VENEZUELA,
-  VIETNAM,
-  WALES,
-  WALLIS_AND_FUTUNA,
-  WESTERN_SAHARA,
-  YEMEN,
-  ZAMBIA,
-  ZIMBABWE,
+  AFGHANISTAN_FLAG_EMOJI,
+  ALAND_ISLANDS_FLAG_EMOJI,
+  ALBANIA_FLAG_EMOJI,
+  ALGERIA_FLAG_EMOJI,
+  AMERICAN_SAMOA_FLAG_EMOJI,
+  ANDORRA_FLAG_EMOJI,
+  ANGOLA_FLAG_EMOJI,
+  ANGUILLA_FLAG_EMOJI,
+  ANTARCTICA_FLAG_EMOJI,
+  ANTIGUA_AND_BARBUDA_FLAG_EMOJI,
+  ARGENTINA_FLAG_EMOJI,
+  ARMENIA_FLAG_EMOJI,
+  ARUBA_FLAG_EMOJI,
+  ASCENSION_ISLAND_FLAG_EMOJI,
+  AUSTRALIA_FLAG_EMOJI,
+  AUSTRIA_FLAG_EMOJI,
+  AZERBAIJAN_FLAG_EMOJI,
+  BAHAMAS_FLAG_EMOJI,
+  BAHRAIN_FLAG_EMOJI,
+  BANGLADESH_FLAG_EMOJI,
+  BARBADOS_FLAG_EMOJI,
+  BELARUS_FLAG_EMOJI,
+  BELGIUM_FLAG_EMOJI,
+  BELIZE_FLAG_EMOJI,
+  BENIN_FLAG_EMOJI,
+  BERMUDA_FLAG_EMOJI,
+  BHUTAN_FLAG_EMOJI,
+  BOLIVIA_FLAG_EMOJI,
+  BONAIRE_FLAG_EMOJI,
+  BOSNIA_AND_HERZEGOVINA_FLAG_EMOJI,
+  BOTSWANA_FLAG_EMOJI,
+  BOUVET_ISLAND_FLAG_EMOJI,
+  BRAZIL_FLAG_EMOJI,
+  BRITISH_INDIAN_OCEAN_TERRITORY_FLAG_EMOJI,
+  BRITISH_VIRGIN_ISLANDS_FLAG_EMOJI,
+  BRUNEI_FLAG_EMOJI,
+  BULGARIA_FLAG_EMOJI,
+  BURKINA_FASO_FLAG_EMOJI,
+  BURUNDI_FLAG_EMOJI,
+  CAMBODIA_FLAG_EMOJI,
+  CAMEROON_FLAG_EMOJI,
+  CANADA_FLAG_EMOJI,
+  CANARY_ISLANDS_FLAG_EMOJI,
+  CAPE_VERDE_FLAG_EMOJI,
+  CARIBBEAN_NETHERLANDS_FLAG_EMOJI,
+  CAYMAN_ISLANDS_FLAG_EMOJI,
+  CENTRAL_AFRICAN_REPUBLIC_FLAG_EMOJI,
+  CEUTA_AND_MELILLA_FLAG_EMOJI,
+  CHAD_FLAG_EMOJI,
+  CHILE_FLAG_EMOJI,
+  CHINA_FLAG_EMOJI,
+  CHRISTMAS_ISLAND_FLAG_EMOJI,
+  CLIPPERTON_ISLAND_FLAG_EMOJI,
+  COCOS_KEELING_ISLANDS_FLAG_EMOJI,
+  COLOMBIA_FLAG_EMOJI,
+  COMOROS_FLAG_EMOJI,
+  CONGO_BRAZZAVILLE_FLAG_EMOJI,
+  CONGO_KINSHASA_FLAG_EMOJI,
+  COOK_ISLANDS_FLAG_EMOJI,
+  COSTA_RICA_FLAG_EMOJI,
+  CROATIA_FLAG_EMOJI,
+  CUBA_FLAG_EMOJI,
+  CURACAO_FLAG_EMOJI,
+  CYPRUS_FLAG_EMOJI,
+  CZECHIA_FLAG_EMOJI,
+  DENMARK_FLAG_EMOJI,
+  DIEGO_GARCIA_FLAG_EMOJI,
+  DJIBOUTI_FLAG_EMOJI,
+  DOMINICA_FLAG_EMOJI,
+  DOMINICAN_REPUBLIC_FLAG_EMOJI,
+  ECUADOR_FLAG_EMOJI,
+  EGYPT_FLAG_EMOJI,
+  EL_SALVADOR_FLAG_EMOJI,
+  ENGLAND_FLAG_EMOJI,
+  EQUATORIAL_GUINEA_FLAG_EMOJI,
+  ERITREA_FLAG_EMOJI,
+  ESTONIA_FLAG_EMOJI,
+  ESWATINI_FLAG_EMOJI,
+  ETHIOPIA_FLAG_EMOJI,
+  FALKLAND_ISLANDS_FLAG_EMOJI,
+  FAROE_ISLANDS_FLAG_EMOJI,
+  FIJI_FLAG_EMOJI,
+  FINLAND_FLAG_EMOJI,
+  FRANCE_FLAG_EMOJI,
+  FRENCH_GUIANA_FLAG_EMOJI,
+  FRENCH_POLYNESIA_FLAG_EMOJI,
+  FRENCH_SOUTHERN_TERRITORIES_FLAG_EMOJI,
+  GABON_FLAG_EMOJI,
+  GAMBIA_FLAG_EMOJI,
+  GEORGIA_FLAG_EMOJI,
+  GERMANY_FLAG_EMOJI,
+  GHANA_FLAG_EMOJI,
+  GIBRALTAR_FLAG_EMOJI,
+  GREECE_FLAG_EMOJI,
+  GREENLAND_FLAG_EMOJI,
+  GRENADA_FLAG_EMOJI,
+  GUADELOUPE_FLAG_EMOJI,
+  GUAM_FLAG_EMOJI,
+  GUATEMALA_FLAG_EMOJI,
+  GUERNSEY_FLAG_EMOJI,
+  GUINEA_FLAG_EMOJI,
+  GUINEA_BISSAU_FLAG_EMOJI,
+  GUYANA_FLAG_EMOJI,
+  HAITI_FLAG_EMOJI,
+  HEARD_AND_MCDONALD_ISLANDS_FLAG_EMOJI,
+  HONDURAS_FLAG_EMOJI,
+  HONG_KONG_FLAG_EMOJI,
+  HUNGARY_FLAG_EMOJI,
+  ICELAND_FLAG_EMOJI,
+  INDIA_FLAG_EMOJI,
+  INDONESIA_FLAG_EMOJI,
+  IRAN_FLAG_EMOJI,
+  IRAQ_FLAG_EMOJI,
+  IRELAND_FLAG_EMOJI,
+  ISLE_OF_MAN_FLAG_EMOJI,
+  ISRAEL_FLAG_EMOJI,
+  ITALY_FLAG_EMOJI,
+  IVORY_COAST_FLAG_EMOJI,
+  JAMAICA_FLAG_EMOJI,
+  JAPAN_FLAG_EMOJI,
+  JERSEY_FLAG_EMOJI,
+  JORDAN_FLAG_EMOJI,
+  KAZAKHSTAN_FLAG_EMOJI,
+  KENYA_FLAG_EMOJI,
+  KIRIBATI_FLAG_EMOJI,
+  KOSOVO_FLAG_EMOJI,
+  KUWAIT_FLAG_EMOJI,
+  KYRGYZSTAN_FLAG_EMOJI,
+  LAOS_FLAG_EMOJI,
+  LATVIA_FLAG_EMOJI,
+  LEBANON_FLAG_EMOJI,
+  LESOTHO_FLAG_EMOJI,
+  LIBERIA_FLAG_EMOJI,
+  LIBYA_FLAG_EMOJI,
+  LIECHTENSTEIN_FLAG_EMOJI,
+  LITHUANIA_FLAG_EMOJI,
+  LUXEMBOURG_FLAG_EMOJI,
+  MACAO_FLAG_EMOJI,
+  MADAGASCAR_FLAG_EMOJI,
+  MALAWI_FLAG_EMOJI,
+  MALAYSIA_FLAG_EMOJI,
+  MALDIVES_FLAG_EMOJI,
+  MALI_FLAG_EMOJI,
+  MALTA_FLAG_EMOJI,
+  MARSHALL_ISLANDS_FLAG_EMOJI,
+  MARTINIQUE_FLAG_EMOJI,
+  MAURITANIA_FLAG_EMOJI,
+  MAURITIUS_FLAG_EMOJI,
+  MAYOTTE_FLAG_EMOJI,
+  MEXICO_FLAG_EMOJI,
+  MICRONESIA_FLAG_EMOJI,
+  MOLDOVA_FLAG_EMOJI,
+  MONACO_FLAG_EMOJI,
+  MONGOLIA_FLAG_EMOJI,
+  MONTENEGRO_FLAG_EMOJI,
+  MONTSERRAT_FLAG_EMOJI,
+  MOROCCO_FLAG_EMOJI,
+  MOZAMBIQUE_FLAG_EMOJI,
+  MYANMAR_FLAG_EMOJI,
+  NAMIBIA_FLAG_EMOJI,
+  NAURU_FLAG_EMOJI,
+  NEPAL_FLAG_EMOJI,
+  NETHERLANDS_FLAG_EMOJI,
+  NEW_CALEDONIA_FLAG_EMOJI,
+  NEW_ZEALAND_FLAG_EMOJI,
+  NICARAGUA_FLAG_EMOJI,
+  NIGER_FLAG_EMOJI,
+  NIGERIA_FLAG_EMOJI,
+  NIUE_FLAG_EMOJI,
+  NORFOLK_ISLAND_FLAG_EMOJI,
+  NORTH_KOREA_FLAG_EMOJI,
+  NORTH_MACEDONIA_FLAG_EMOJI,
+  NORTHERN_MARIANA_ISLANDS_FLAG_EMOJI,
+  NORWAY_FLAG_EMOJI,
+  OMAN_FLAG_EMOJI,
+  PAKISTAN_FLAG_EMOJI,
+  PALAU_FLAG_EMOJI,
+  PALESTINE_FLAG_EMOJI,
+  PANAMA_FLAG_EMOJI,
+  PAPUA_NEW_GUINEA_FLAG_EMOJI,
+  PARAGUAY_FLAG_EMOJI,
+  PERU_FLAG_EMOJI,
+  PHILIPPINES_FLAG_EMOJI,
+  PITCAIRN_ISLANDS_FLAG_EMOJI,
+  POLAND_FLAG_EMOJI,
+  PORTUGAL_FLAG_EMOJI,
+  PUERTO_RICO_FLAG_EMOJI,
+  QATAR_FLAG_EMOJI,
+  REUNION_FLAG_EMOJI,
+  ROMANIA_FLAG_EMOJI,
+  RUSSIA_FLAG_EMOJI,
+  RWANDA_FLAG_EMOJI,
+  SAMOA_FLAG_EMOJI,
+  SAN_MARINO_FLAG_EMOJI,
+  SAO_TOME_AND_PRINCIPE_FLAG_EMOJI,
+  SAUDI_ARABIA_FLAG_EMOJI,
+  SCOTLAND_FLAG_EMOJI,
+  SENEGAL_FLAG_EMOJI,
+  SERBIA_FLAG_EMOJI,
+  SEYCHELLES_FLAG_EMOJI,
+  SIERRA_LEONE_FLAG_EMOJI,
+  SINGAPORE_FLAG_EMOJI,
+  SINT_MAARTEN_FLAG_EMOJI,
+  SLOVAKIA_FLAG_EMOJI,
+  SLOVENIA_FLAG_EMOJI,
+  SOLOMON_ISLANDS_FLAG_EMOJI,
+  SOMALIA_FLAG_EMOJI,
+  SOUTH_AFRICA_FLAG_EMOJI,
+  SOUTH_GEORGIA_AND_SOUTH_SANDWICH_ISLANDS_FLAG_EMOJI,
+  SOUTH_KOREA_FLAG_EMOJI,
+  SOUTH_SUDAN_FLAG_EMOJI,
+  SPAIN_FLAG_EMOJI,
+  SRI_LANKA_FLAG_EMOJI,
+  ST_BARTHELEMY_FLAG_EMOJI,
+  ST_HELENA_FLAG_EMOJI,
+  ST_KITTS_AND_NEVIS_FLAG_EMOJI,
+  ST_LUCIA_FLAG_EMOJI,
+  ST_MARTIN_FLAG_EMOJI,
+  ST_PIERRE_AND_MIQUELON_FLAG_EMOJI,
+  ST_VINCENT_AND_GRENADINES_FLAG_EMOJI,
+  SUDAN_FLAG_EMOJI,
+  SURINAME_FLAG_EMOJI,
+  SVALBARD_AND_JAN_MAYEN_FLAG_EMOJI,
+  SWEDEN_FLAG_EMOJI,
+  SWITZERLAND_FLAG_EMOJI,
+  SYRIA_FLAG_EMOJI,
+  TAIWAN_FLAG_EMOJI,
+  TAJIKISTAN_FLAG_EMOJI,
+  TANZANIA_FLAG_EMOJI,
+  THAILAND_FLAG_EMOJI,
+  TIMOR_LESTE_FLAG_EMOJI,
+  TOGO_FLAG_EMOJI,
+  TOKELAU_FLAG_EMOJI,
+  TONGA_FLAG_EMOJI,
+  TRINIDAD_AND_TOBAGO_FLAG_EMOJI,
+  TRISTAN_DA_CUNHA_FLAG_EMOJI,
+  TUNISIA_FLAG_EMOJI,
+  TURKEY_FLAG_EMOJI,
+  TURKMENISTAN_FLAG_EMOJI,
+  TURKS_AND_CAICOS_ISLANDS_FLAG_EMOJI,
+  TUVALU_FLAG_EMOJI,
+  US_VIRGIN_ISLANDS_FLAG_EMOJI,
+  UGANDA_FLAG_EMOJI,
+  UKRAINE_FLAG_EMOJI,
+  UNITED_ARAB_EMIRATES_FLAG_EMOJI,
+  UNITED_STATES_FLAG_EMOJI,
+  URUGUAY_FLAG_EMOJI,
+  UZBEKISTAN_FLAG_EMOJI,
+  VANUATU_FLAG_EMOJI,
+  VATICAN_CITY_FLAG_EMOJI,
+  VENEZUELA_FLAG_EMOJI,
+  VIETNAM_FLAG_EMOJI,
+  WALES_FLAG_EMOJI,
+  WALLIS_AND_FUTUNA_FLAG_EMOJI,
+  WESTERN_SAHARA_FLAG_EMOJI,
+  YEMEN_FLAG_EMOJI,
+  ZAMBIA_FLAG_EMOJI,
+  ZIMBABWE_FLAG_EMOJI,
 ] as const;
 
-export const COUNTRY_UNIONS_FLAGS = [UNITED_KINGDOM, UNITED_NATIONS, EUROPEAN_UNION] as const;
+export const COUNTRY_UNIONS_FLAGS = [
+  UNITED_KINGDOM_FLAG_EMOJI,
+  UNITED_NATIONS_FLAG_EMOJI,
+  EUROPEAN_UNION_FLAG_EMOJI,
+] as const;
 
-export type GeoFlag = CountryName | UnionFlag;
-export const GEO_FLAGS: readonly { name: GeoFlag; emoji: string }[] = [
-  ...(COUNTRY_FLAGS as unknown as { name: GeoFlag; emoji: string }[]),
-  ...(COUNTRY_UNIONS_FLAGS as unknown as { name: GeoFlag; emoji: string }[]),
+// @internal
+type CountryFlag = (typeof COUNTRY_FLAGS)[number];
+// @internal
+type UnionsFlag = (typeof COUNTRY_UNIONS_FLAGS)[number];
+// @internal
+type GeoFlag = CountryFlag | UnionsFlag;
+
+export const GEO_FLAGS: readonly GeoFlag[] = [
+  ...(COUNTRY_FLAGS as unknown as GeoFlag[]),
+  ...(COUNTRY_UNIONS_FLAGS as unknown as GeoFlag[]),
 ].sort();
 
-export const GENDER_FLAGS = [RAINBOW_FLAG, TRANS_FLAG] as const;
+export const GENDER_FLAGS = [RAINBOW_FLAG_EMOJI, TRANS_FLAG_EMOJI] as const;
 
-export const NON_COUNTRY_FLAGS = [
-  CHEQUERED_FLAG,
-  PIRATE_FLAG,
-  BLACK_FLAG,
-  WHITE_FLAG,
-  TRIANGULAR_FLAG,
-  CROSSED_FLAGS,
+export const OTHERY_FLAGS = [
+  CHEQUERED_FLAG_EMOJI,
+  PIRATE_FLAG_EMOJI,
+  BLACK_FLAG_EMOJI,
+  WHITE_FLAG_EMOJI,
+  TRIANGULAR_FLAG_EMOJI,
+  CROSSED_FLAGS_EMOJI,
 ] as const;
 
-export type Flag = GeoFlag | GenderFlag | OtherFlag;
-export const ALL_FLAGS: readonly { name: Flag; emoji: string }[] = [
-  ...(GEO_FLAGS as unknown as { name: Flag; emoji: string }[]),
-  ...(GENDER_FLAGS as unknown as { name: Flag; emoji: string }[]),
-  ...(NON_COUNTRY_FLAGS as unknown as { name: Flag; emoji: string }[]),
+// @internal
+type GenderFlag = (typeof GENDER_FLAGS)[number];
+// @internal
+type OtherFlag = (typeof COUNTRY_UNIONS_FLAGS)[number];
+// @internal
+type Flag = GenderFlag | OtherFlag;
+
+export const ALL_FLAGS: readonly Flag[] = [
+  ...(GEO_FLAGS as unknown as Flag[]),
+  ...(GENDER_FLAGS as unknown as Flag[]),
+  ...(OTHERY_FLAGS as unknown as Flag[]),
 ].sort();

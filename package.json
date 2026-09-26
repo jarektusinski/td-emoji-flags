@@ -1,6 +1,6 @@
 {
   "name": "td-emoji-flags",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Type-safe country and flag emoji constants for TypeScript, built on td-countries-names.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -56,8 +56,5 @@
   ],
   "publishConfig": {
     "access": "public"
-  },
-  "dependencies": {
-    "td-countries-names": "^1.0.0"
   }
 }
