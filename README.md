@@ -1,17 +1,16 @@
 #### [TusinskiDev] Emoji Flags
 # td-emoji-flags
 
-Type-safe country and flag emoji constants for TypeScript, built on top of `td-countries-names`.
+A TypeScript package with country and flag emoji constants as Unicode strings.
 
-This package exports named constants for official country flags and additional Unicode flag-like symbols such as the United Nations, rainbow pride flag, pirate flag, and others.
+This library exports named flag emoji values for countries, unions, and additional symbol-based flags such as the United Nations, the rainbow flag, the trans flag, pirate flag, and more.
 
 ## Features
 
-- typed country constants using `CountryName`
-- official country flag emoji values
-- special non-country flag entries
-- ready-to-use grouped arrays: `COUNTRY_FLAGS`, `NON_COUNTRY_FLAGS`, and `ALL_FLAGS`
-- works in both Node.js and browser-oriented TypeScript projects
+- hundreds of country flag emoji constants
+- non-country flag symbols
+- grouped arrays for convenient filtering and lookup
+- works in Node.js and browser-oriented TypeScript code
 
 ## Installation
 
@@ -23,57 +22,69 @@ npm install td-emoji-flags
 
 ```ts
 import {
-  POLAND,
-  UNITED_STATES,
-  UNITED_NATIONS,
+  POLAND_FLAG_EMOJI,
+  UNITED_STATES_FLAG_EMOJI,
+  UNITED_NATIONS_FLAG_EMOJI,
+  RAINBOW_FLAG_EMOJI,
   COUNTRY_FLAGS,
+  GEO_FLAGS,
   ALL_FLAGS,
 } from 'td-emoji-flags';
 
-console.log(POLAND.emoji); // 🇵🇱
-console.log(POLAND.name); // Poland
-console.log(UNITED_STATES.emoji); // 🇺🇸
-console.log(UNITED_NATIONS.emoji); // 🇺🇳
+console.log(POLAND_FLAG_EMOJI); // 🇵🇱
+console.log(UNITED_STATES_FLAG_EMOJI); // 🇺🇸
+console.log(UNITED_NATIONS_FLAG_EMOJI); // 🇺🇳
+console.log(RAINBOW_FLAG_EMOJI); // 🏳️‍🌈
 
-console.log(COUNTRY_FLAGS.length);
-console.log(ALL_FLAGS.includes(UNITED_NATIONS));
+console.log(COUNTRY_FLAGS.includes(POLAND_FLAG_EMOJI)); // true
+console.log(COUNTRY_FLAGS.includes(UNITED_NATIONS_FLAG_EMOJI)); // false
+console.log(GEO_FLAGS.includes(UNITED_NATIONS_FLAG_EMOJI)); // true
+console.log(ALL_FLAGS.includes(RAINBOW_FLAG_EMOJI)); // true
+```
+
+## Exported groups
+
+The package currently exposes these arrays:
+
+```ts
+import {
+  COUNTRY_FLAGS,
+  COUNTRY_UNIONS_FLAGS,
+  GEO_FLAGS,
+  GENDER_FLAGS,
+  OTHERY_FLAGS,
+  ALL_FLAGS,
+} from 'td-emoji-flags';
+```
+
+- `COUNTRY_FLAGS`: country flag emoji strings
+- `COUNTRY_UNIONS_FLAGS`: geopolitical and union flags such as the UK, UN, and EU
+- `GEO_FLAGS`: combined country + union flags
+- `GENDER_FLAGS`: rainbow and trans pride flags
+- `OTHERY_FLAGS`: miscellaneous flags and markers like pirate, chequered, and crossed flags
+- `ALL_FLAGS`: all emoji flags combined in a single sorted array
+
+## Example constants
+
+```ts
+import {
+  AFGHANISTAN_FLAG_EMOJI,
+  POLAND_FLAG_EMOJI,
+  UNITED_STATES_FLAG_EMOJI,
+  UNITED_NATIONS_FLAG_EMOJI,
+  EUROPEAN_UNION_FLAG_EMOJI,
+  RAINBOW_FLAG_EMOJI,
+  PIRATE_FLAG_EMOJI,
+} from 'td-emoji-flags';
 ```
 
 ## Use cases
 
-- country selection forms and dropdown lists with emoji indicators
-- UI filters for country-specific data and badges
-- dashboards and admin panels that display national flags next to names
-- localization or user profile views where country names must map to emoji icons
-- data normalization when you need a typed country value plus its Unicode flag representation
-- special symbol rendering for international or community flags in messaging and apps
-
-## Available exports
-
-```ts
-import {
-  AFGHANISTAN,
-  POLAND,
-  UNITED_STATES,
-  EUROPEAN_UNION,
-  UNITED_NATIONS,
-  RAINBOW_FLAG,
-  PIRATE_FLAG,
-  COUNTRY_FLAGS,
-  NON_COUNTRY_FLAGS,
-  ALL_FLAGS,
-  type Flag,
-} from 'td-emoji-flags';
-```
-
-The exported constants are immutable objects shaped like this:
-
-```ts
-{
-  name: 'Poland',
-  emoji: '🇵🇱',
-}
-```
+- country selectors and dropdown lists with emoji indicators
+- dashboards and admin interfaces showing country flags
+- UI filters and badges for regional or international data
+- emoji-based maps and localization views
+- quick access to common flag emojis without maintaining a custom list
 
 ## License
 
