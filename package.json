@@ -1,9 +1,17 @@
 {
   "name": "td-emoji-flags",
   "version": "1.0.0",
-  "description": "",
+  "description": "Type-safe country and flag emoji constants for TypeScript, built on td-countries-names.",
   "main": "dist/index.js",
+  "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
   "scripts": {
     "build": "tsup src/index.ts --format cjs,esm --dts --clean",
     "prepublishOnly": "npm run build",
@@ -13,9 +21,25 @@
     "format": "prettier --write \"src/**/*.ts\" \"tests/**/*.ts\"",
     "format:check": "prettier --check \"src/**/*.ts\" \"tests/**/*.ts\""
   },
-  "keywords": [],
+  "keywords": [
+    "emoji",
+    "flags",
+    "countries",
+    "country-flags",
+    "typescript",
+    "unicode",
+    "international"
+  ],
   "author": "Jarosław Tusiński",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jarektusinski/td-emoji-flags.git"
+  },
+  "homepage": "https://github.com/jarektusinski/td-emoji-flags#readme",
+  "bugs": {
+    "url": "https://github.com/jarektusinski/td-emoji-flags/issues"
+  },
   "devDependencies": {
     "@types/jest": "^29.5.14",
     "@typescript-eslint/eslint-plugin": "^6.21.0",
@@ -33,5 +57,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "dependencies": {}
+  "dependencies": {
+    "td-countries-names": "^1.0.0"
+  }
 }
